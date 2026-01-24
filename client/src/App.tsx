@@ -673,7 +673,7 @@ export default function App() {
                             <Label className="text-emerald-600/80 text-sm mb-0 cursor-pointer">Consumable</Label>
                             <Switch
                               checked={editingEntitlement.consumable}
-                              onCheckedChange={(checked) => setEditingEntitlement({...editingEntitlement, consumable: checked})}
+                              onCheckedChange={(checked: boolean) => setEditingEntitlement({...editingEntitlement, consumable: checked})}
                               className="data-[state=checked]:bg-emerald-500"
                             />
                           </div>
