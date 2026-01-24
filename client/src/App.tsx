@@ -33,7 +33,7 @@ interface PriceDimension {
 
 interface EntitlementDefinition {
   className: string;
-  parentClass: 'power_entitlement' | 'cosmetic_entitlement' | 'custom';
+  parentClass: 'island_entitlement' | 'cosmetic_entitlement' | 'custom';
   customParent?: string;
   infoModule: string;
   icon: string;
