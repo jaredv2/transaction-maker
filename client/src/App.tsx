@@ -8,7 +8,7 @@ import { Switch } from './components/ui/switch';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
 import { Alert, AlertDescription } from './components/ui/alert';
 import { Plus, Trash2, Copy, Check, Save, Code, ShoppingCart, Zap, Pencil, Square, CheckSquare } from 'lucide-react';
-
+import { Analytics } from "@vercel/analytics/react"
 // ============================================================================
 // TYPE DEFINITIONS
 // ============================================================================
