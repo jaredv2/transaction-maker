@@ -390,6 +390,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-neutral-950 text-emerald-100 p-6 font-sans">
+      <Analytics />
       <div className="max-w-7xl mx-auto">
         {/* HEADER */}
         <div className="mb-8 border-b border-emerald-900 pb-6 flex justify-between items-end">
